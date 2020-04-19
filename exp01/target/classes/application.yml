@@ -1,0 +1,29 @@
+server:
+  port: 8001 # 服务端口
+
+spring:
+  application:
+    name: exp01 #服务名
+  profiles:
+    active: dev #环境设置：dev、test、prod
+
+# 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.106.41.184:33306/springboot_exp?serverTimezone=GMT%2B8
+    username: root
+    password: root123
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+    mode: HTML5
+
+# mybatis-plus日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

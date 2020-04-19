@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exp03" />
+        <module name="exp02" />
+        <module name="exp01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="exp" target="11" />
+      <module name="exp01" target="11" />
+      <module name="exp02" target="11" />
+      <module name="exp03" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exp" options="-parameters" />
+      <module name="exp01" options="-parameters" />
+      <module name="exp02" options="-parameters" />
+      <module name="exp03" options="-parameters" />
+    </option>
+  </component>
+</project>

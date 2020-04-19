@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02ceb219-e9af-4329-92d6-320f314672ec" name="aliyun" url="http://www.duiyi.xyz/">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="39.106.41.184" port="22" sshConfigId="471a0e2e-8cd8-4286-9ddd-234550358d11" sshConfig="aliyun" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
